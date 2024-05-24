@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>login-site</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+		<style type="text/css">
+			*{
+				font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+				margin:0;
+				padding:0;
+				text-decoration: none;
+				box-sizing: border-box;
+			}
+			body{
+				min-height:100vh;
+				background: linear-gradient(to right top,#a1a1a1,#84b4d7,#00d1e3,#00e7a2,#a8eb12);
+			}
+			form{
+				background: #989898ce;
+				width:350px;
+				height: 580px;
+				padding: 75px 50px;
+				position: absolute;
+				left:50%;
+				top:50%;
+				transform: translate(-50%,-50%);
+				
+			}
+			h1{
+				text-align:center;
+				margin-bottom: 45px;
+				color:white;
+				font-size: 40px;
+
+			}
+			.textBoxdiv{
+				border-bottom:2px solid white;
+				position:relative;
+				margin:35px 0;
+			}
+			.textBoxdiv input{
+				background: none;
+				border:none;
+				outline:none;
+				width:100%;
+				color:white;
+				height:30px;
+				font-size:20px;
+
+			}
+			.loginbtn{
+				height:45px;
+				width:100%;
+				border:none;
+				outline: none;
+				background: linear-gradient(to right top,#a1a1a1,#84b4d7,#00d1e3,#00e7a2,#a8eb12);;
+				background-size: 200%;
+				color:white;
+				font-size: 16px;
+			}
+			.loginbtn:hover{
+				background-position: right;
+				font-size:17px;
+			}
+			.signup{
+				color:white;
+				margin-top: 45px;
+				text-align: center;
+			}
+			.signup a{
+				color:black;
+			}
+			.signup a:hover{
+				color:blue;
+			}
+			.image{
+				margin-bottom: 45px;
+
+			}
+			.image a{
+				font-size: 2.5rem;
+				color:var(--black);
+				position: absolute;
+				padding-left:1.5rem;
+				padding-top:0.5rem;
+
+			}
+
+		</style>
+	</head>
+	<body>
+		<form>
+			<div class="image">
+				<a href="#"class="fas fa-user-circle"></a>
+			<h1>Login</h1>
+			</div>
+				<div class="textBoxdiv">
+        <input type="text" id="username" placeholder="Username" required>
+    </div>
+    <div class="textBoxdiv">
+        <input type="password" id="password" placeholder="Password" pattern=".{5,10}" required>
+    </div>
+    <input type="button" value="Login" class="loginbtn" onclick="checkLogin()">
+				<div class="signup">
+					Don't have an account ?
+					<br>
+					<a href="">Sign up</a>
+				</div>
+			</form>
+
+			<script type="text/javascript">
+    function checkLogin() {
+        // Get the entered username and password
+        var username = document.getElementById('username').value;
+        var password = document.getElementById('password').value;
+
+        // Fixed username and password
+        var fixedUsername = "suhani";
+        var fixedPassword = "9620";
+
+        // Check if the entered username and password match the fixed values
+        if (username === fixedUsername && password === fixedPassword) {
+            // Redirect to the dashboard or perform any other action
+             window.location.href = "category.html";
+        } else {
+            alert("Invalid username or password. Please try again.");
+        }
+    }
+</script>
+
+</body>
+</html>
+

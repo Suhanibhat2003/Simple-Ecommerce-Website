@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>e-commerce website</title>
+
+	<!--font awesome cdn link-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+
+	<!--custom css file link-->
+	<link rel="stylesheet" href="css/style.css">
+	<!--for image sliding-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+
+
+</head>
+<body>
+
+	<!--header section starts-->
+
+	<header>
+		<div class="header-1">
+			<a href="#" class="logo"><i class="fas fa-shopping-basket"></i>Suvidha market</a>
+
+			<form action="" class="search-box-container">
+				<input type="search" id="search-box" placeholder="Search here...">
+				<label for="search-box" class="fas fa-search"></label>
+			</form>
+		</div>
+
+
+		<div class="header-2">
+			
+			<ul>
+				<li class="active"><a href="#">home</a></li>
+				<li><a href="#">product</a>
+						<div class="submenu-1">
+							<ul>
+								<li><a href="#">Women</a></li>
+								<li><a href="#">Men</a></li>
+								<li><a href="#">Kids</a></li>
+								<li><a href="#">Beauty</a></li>
+								<li><a href="#">Home&Living</a></li>
+								<li><a href="#">Accessories</a></li>
+							</ul>
+						</div>
+				</li>
+				<li><a href="#">about</a>
+					<div class="submenu-2">
+							<ul>
+								<li><a href="#">Introduction</a></li>
+								<li><a href="#">Value proposition</a></li>
+								<li><a href="#">Brands</a></li>
+								<li><a href="#">Recognition</a></li>
+							</ul>
+						</div>
+					</li>
+				<li><a href="#">contact</a></li>
+				<li><a href="login.html" target="blank">login</a></li>
+			</ul>
+			<div id="menu-bar" class="fas fa-bars"></div>
+			<div class="icons">
+				<a href="#"class="fas fa-shopping-cart"></a>
+				<a href="#"class="fas fa-heart"></a>
+				<a href="#"class="fas fa-user-circle"></a>
+			</div>
+		</div>
+	</header>
+
+	<!--header section ends-->
+
+
+	<!--home section starts-->
+	<section class="home" id="home">
+		<div class="image">
+			<img src="C:\Users\HP\OneDrive\Desktop\project\images\coverimage.jpeg" alt="">
+		</div>
+
+		<div class="content">
+			<h3>your daily need products</h3>
+			<a href="login.html" class="btn" target="blank">get started</a>
+		</div>
+	</section>
+
+	<!--home section ends-->
+
+
+	<!--slider section starts-->
+	<section class="container">
+		
+		<div class="swiper">
+  	<!-- Additional required wrapper -->
+  		<div class="swiper-wrapper">
+    		<!-- Slides -->
+    		<div class="swiper-slide"><img src="C:\Users\HP\OneDrive\Desktop\project\images\women.jpg"></div>
+    		<div class="swiper-slide"><img src="C:\Users\HP\OneDrive\Desktop\project\images\men.jpg"></div>
+    		<div class="swiper-slide"><img src="C:\Users\HP\OneDrive\Desktop\project\images\kids.jpg"></div>
+    		<div class="swiper-slide"><img src="C:\Users\HP\OneDrive\Desktop\project\images\old.jpg"></div>
+   	</div>
+
+  	<!-- If we need pagination -->
+  	<div class="swiper-pagination"></div>
+
+  	<!-- If we need navigation buttons -->
+  	<div class="swiper-button-prev"></div>
+  	<div class="swiper-button-next"></div>
+
+ 		</div>
+	</section>
+	<!--slider section ends-->
+
+	<!--timer section starts-->
+	<section class="deal" id="deal">
+			<h3 class="title">Deal of the day</h3>
+			<br>
+			<p class="para">Caution: Falling Prices Ahead! </p>
+			<br>
+			<h2>sale ends in...</h2>
+			<div class="count-down">
+				<div class="box">
+					<h3 class="day">00</h3>
+					<span>day</span>
+				</div>
+				<div class="box">
+					<h3 class="hour">00</h3>
+					<span>hour</span>
+				</div>
+				<div class="box">
+					<h3 class="minute">00</h3>
+					<span>min</span>
+				</div>
+				<div class="box">
+					<h3 class="second">00</h3>
+					<span>sec</span>
+				</div>
+				<br>
+				<a href="#" class="btn1">Check the deal</a>
+				
+			</div>
+		
+	</section>
+
+
+
+
+
+	<!--timer section ends-->
+
+	<script type="text/javascript"src="script.js"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script>
+	const swiper = new Swiper('.swiper', {
+		autoplay:{
+			delay:2000,
+			disableOnInteraction:false,
+		},
+  
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+
+</script>
+
+	
+
+
+
+
+
+</body>
+</html>

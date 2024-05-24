@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>category-site</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+  <style type="text/css">
+    .heading{
+      text-align: center;
+      text-transform:uppercase;
+      padding:1 rem;
+      font-size:3.5rem;
+    }
+
+    .heading span{
+      color:#27ae60;
+      text-transform:uppercase;
+    }
+
+    .category .box-container{
+      display:flex;
+      justify-content: center;
+      flex-wrap:wrap;
+
+    }
+
+    .category .box-container .box{
+      border: .1rem solid rgba(0,0,0,.3);
+      border-radius: .5rem;
+      text-align: center;
+      padding: 0.1rem;
+      flex: 0 0 calc(33.33% - 1rem);
+      margin: 0,5rem;
+    }
+    .category .box-container .box img{
+      border-radius:50px;
+    }
+    .btn2{
+      display:inline-block;
+      width:10%;
+      position: absolute;
+      background:#27ae60;
+      color:#fff;
+      font-size: 100%;
+      text-align: center;
+      cursor: pointer;
+      left: 11.5%;
+      top:30%;
+    }
+    .category .box-container .box img:hover{
+      perspective: 1000px;
+      transition: transform 0.8s;
+      transform-style: preserve-3d;
+      transform: rotateY(180deg);
+    }
+     .btn2:hover{
+      background: #2c2c54;
+     }
+
+    .btn3{
+      display:inline-block;
+      width:10%;
+      position: absolute;
+      background:#27ae60;
+      color:#fff;
+      font-size: 100%;
+      text-align: center;
+      cursor: pointer;
+      left: 45%;
+      top:30%;
+    }
+    .btn3:hover{
+      background: #2c2c54;
+     }
+    .btn4{
+      display:inline-block;
+      width:10%;
+      position: absolute;
+      background:#27ae60;
+      color:#fff;
+      font-size: 100%;
+      text-align: center;
+      cursor: pointer;
+      left: 78.5%;
+      top:30%;
+    }
+    .btn4:hover{
+      background: #2c2c54;
+     }
+    .btn5{
+      display:inline-block;
+      width:10%;
+      position: absolute;
+      background:#27ae60;
+      color:#fff;
+      font-size: 100%;
+      text-align: center;
+      cursor: pointer;
+      left: 11.5%;
+      top:78%;
+    }
+    .btn5:hover{
+      background: #2c2c54;
+     }
+    .btn6{
+      display:inline-block;
+      width:10%;
+      position: absolute;
+      background:#27ae60;
+      color:#fff;
+      font-size: 100%;
+      text-align: center;
+      cursor: pointer;
+      left: 45%;
+      top:78%;
+    }
+    .btn6:hover{
+      background: #2c2c54;
+     }
+    .btn7{
+      display:inline-block;
+      width:10%;
+      position: absolute;
+      background:#27ae60;
+      color:#fff;
+      font-size: 100%;
+      text-align: center;
+      cursor: pointer;
+      left: 78.5%;
+      top:78%;
+    }
+    .btn7:hover{
+      background: #2c2c54;
+     }
+    footer{
+      background: #eee;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding:2rem 5%;
+      width:100%;
+
+    }
+    .logo{
+      color:#222 ;
+      font-weight: bolder;
+      font-size: 2rem;
+    }
+    .logo i{
+      padding-right: .5rem;
+      color: #27ae60;
+    }
+    .links a{
+
+    }
+
+
+</style>
+</head>
+<body>
+  <!--category section starts-->
+  <section class="category" id="category">
+
+    <h1 class="heading"> Shop by<span> Category</span></h1>
+
+    <div class="box-container">
+      <div class="box">
+        <h3>Women</h3>
+        <p>upto 50% off</p>
+        <img src="C:\Users\HP\OneDrive\Desktop\project\images\ladies.jpeg" alt="">
+        <a href="womendress.html" class="btn2" target="blank">Shop Now</a>
+    </div>
+    <div class="box">
+        <h3>Men</h3>
+        <p>upto 30% off </p>
+        <img src="C:\Users\HP\OneDrive\Desktop\project\images\gentss.jpeg" alt="">
+        <a href="#" class="btn3">Shop Now</a>
+    </div>
+    <div class="box">
+        <h3>Kids</h3>
+        <p>upto 50% off </p>
+        <img src="C:\Users\HP\OneDrive\Desktop\project\images\sugarkids.jpeg" alt="">
+        <a href="#" class="btn4">Shop Now</a>
+    </div>
+    <div class="box">
+        <h3>Beauty</h3>
+        <p>upto 20% off </p>
+        <img src="C:\Users\HP\OneDrive\Desktop\project\images\makeup.jpeg" alt="">
+        <a href="#" class="btn5">Shop Now</a>
+    </div>
+    <div class="box">
+        <h3>Home & Living</h3>
+        <p>upto 10% off </p>
+        <img src="C:\Users\HP\OneDrive\Desktop\project\images\home.jpeg" alt="">
+        <a href="#" class="btn6">Shop Now</a>
+    </div>
+     <div class="box">
+        <h3>Accessories</h3>
+        <p> upto 20% off </p>
+        <img src="C:\Users\HP\OneDrive\Desktop\project\images\accesories.jpeg" alt="">
+        <a href="#" class="btn7">Shop Now</a>
+    </div>
+
+
+  <!--category section ends-->
+  <!--footer section starts-->
+  <footer>
+    <div class="footer">
+    
+      <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>Suvidha market</a>
+      <br>
+      <p>Lorem ipsum dolor sit amet. Ut natus asperiores hic consectetur voluptates et consequatur nisi At ratione quod.</p>
+      <div class="share">
+        <a href="#" class="btn fab fa-facebook-f"></a>
+        <a href="#" class="btn fab fa-twitter"></a>
+        <a href="#" class="btn fab fa-instagram"></a>
+        <a href="#" class="btn fab fa-linkedin"></a>
+      </div>
+   
+
+   
+      <h3>our location</h3>
+      <div class="links">
+        <a href="#">India</a>
+        <a href="#">USA</a>
+        <a href="#">France</a>
+        <a href="#">Japan</a>
+        <a href="#">Russia</a>
+    </div>
+ 
+ 
+      <h3>quick links</h3>
+      <div class="types">
+        <a href="#">|home|</a>
+        <a href="#">|products|</a>
+        <a href="#">|about|</a>
+        <a href="#">|contact|</a>
+        <a href="#">|login|</a>
+    </div>
+
+ 
+      <h3>download app</h3>
+      <div class="store">
+        <a href="#">|google play|</a>
+        <a href="#">|window xp|</a>
+        <a href="#">|app store|</a>
+    </div>
+
+      <h1 class="credit">created by :<span>Suhani R Bhat</span>    |all rights reserved| </h1>
+    </div>
+  </footer>
+
+
+  <!--footer section ends-->
+
+
+
+
+</body>
+</html>
