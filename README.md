@@ -3,8 +3,8 @@
 </div>
 <h1>E-Commerce Website</h1>
 
- My primary objective was to create a user-friendly e-commerce website namely Suvidha market by making it fully functional from the client side (front-end).
- The website provides variety of options for clothing for men, women as well as kids and various other day to day products. I then integrated various payment options to 
+ The primary objective was to create a user-friendly e-commerce website named Suvidha market by making it fully functional from the client side (front-end).
+ The website provides variety of options for clothing for men, women as well as kids and various other day to day products.Various payment options are also integrated to 
  make the checkout process seamless for customers using following features from
 ## Preview
 
