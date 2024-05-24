@@ -8,10 +8,11 @@
  make the checkout process seamless for customers using following features from
 ## Preview
 
-![Preview Image](https://github.com/Suhanibhat2003/Skin-Disease-Detection-System/blob/main/Screenshot%20(21).png)
-![Preview Image](https://github.com/Suhanibhat2003/Skin-Disease-Detection-System/blob/main/Screenshot%20(22).png)
-![Preview Image](https://github.com/Suhanibhat2003/Skin-Disease-Detection-System/blob/main/Screenshot%20(24).png)
-
+![Preview Image](https://github.com/Suhanibhat2003/Simple-Ecommerce-Website/blob/main/Screenshot%20(73).png)
+![Preview Image](https://github.com/Suhanibhat2003/Simple-Ecommerce-Website/blob/main/Screenshot%20(74).png)
+![Preview Image](https://github.com/Suhanibhat2003/Simple-Ecommerce-Website/blob/main/Screenshot%20(77).png)
+![Preview Image](https://github.com/Suhanibhat2003/Simple-Ecommerce-Website/blob/main/Screenshot%20(75).png)
+![Preview Image](https://github.com/Suhanibhat2003/Simple-Ecommerce-Website/blob/main/Screenshot%20(76).png)
 
 
 
